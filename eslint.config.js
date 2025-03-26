@@ -4,6 +4,10 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
+  {
+  base: '/add-todo/',
+};
+
   { ignores: ['dist'] },
   {
     files: ['**/*.{js,jsx}'],
